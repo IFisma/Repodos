@@ -8,3 +8,14 @@ p{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: black;
 }
+.formulario{
+    margin: 5%;
+    padding: 20px 30px 40px 50px;
+    background-color: black;
+    justify-content: end;
+}
+.box{
+    background-color: black;
+    margin: 20px;
+    color: beige;
+}
