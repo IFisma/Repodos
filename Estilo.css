@@ -1,21 +1,25 @@
-body{
-    margin: 25%;
-    padding: 0%;
-    background-color: gray;
+body{ 
+    background-color: rgb(96,139,168);
+    font-family:sans-serif;
+}
+.Box{
+    border: 2px dotted rgb(96, 139, 168);
+    display: flex ;
+    justify-content: space-between;
 
 }
-p{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: black;
-}
-.formulario{
-    margin: 5%;
-    padding: 20px 30px 40px 50px;
-    background-color: black;
-    justify-content: end;
-}
 .box{
-    background-color: black;
-    margin: 20px;
-    color: beige;
+    color: aliceblue;
+    border : 2px solid rgb(96,139,168);
+    border-radius: 5px;
+    background-color: rgb(96,139,168/0.2);
+    padding: 1em;
+}
+button:hover {
+    background-color: grey
+    
+}
+form li{
+    background-color: cadetblue;
+    margin: 2em;
 }
