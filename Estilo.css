@@ -1,25 +1,18 @@
-body{ 
-    background-color: rgb(96,139,168);
-    font-family:sans-serif;
+body{
+    background-color: cornflowerblue;
 }
-.Box{
-    border: 2px dotted rgb(96, 139, 168);
-    display: flex ;
-    justify-content: space-between;
-
+h1a{
+    color: blue;
 }
-.box{
+p{
+    color: aqua;
+}
+h2:hover{
+    background-color: black;
     color: aliceblue;
-    border : 2px solid rgb(96,139,168);
-    border-radius: 5px;
-    background-color: rgb(96,139,168/0.2);
-    padding: 1em;
 }
-button:hover {
-    background-color: grey
-    
-}
-form li{
-    background-color: cadetblue;
-    margin: 2em;
+.encavezado{
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
